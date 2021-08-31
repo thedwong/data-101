@@ -1,0 +1,5 @@
+import pandas as pd
+
+## Using the pandas library, read the csv data file and create a data-frame called autos
+autos = pd.read_csv('Automobile_data.csv')
+autos
